@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+.box {
+	border: 3px solid gray;
+	margin-top: 20px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 1000px;
+}
+
+.name {
+	color: red;
+	text-align: center;
+}
+
+.foto {
+	background-position: center;
+	padding-left: 50px;
+}
+	
+.signature
+{
+	color: blue;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.header {
+	background-color: pink;
+	color: brown;
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+.list {
+	background-color: palegreen;
+	color: darkorange;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 20px;
+	padding-left: 50px	
+}
+
+.contact {
+	background-color: lemonchiffon;
+	padding-left: 50px
+}
+
+.small_box {
+	background-color: teal;
+	color: yellow;
+	font-weight: bold;
+	padding-left: 50px;
+	padding-left: 50px;	
+}
+
+
