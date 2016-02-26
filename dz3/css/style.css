@@ -1,0 +1,133 @@
+html, body {
+    height: 100%/*new*/
+}
+
+.container {
+    min-height: 100%;/*new*/
+    width: 1060px;
+    /*height: 950px;*/
+    margin: 0 auto;
+    box-shadow: 0 0 2px 1px rgba(213, 213, 213, 1);
+    font-family: 'Open Sans', sans-serif;
+    background: #ffffff;
+}
+.site {
+    padding: 44px 46px 0 44px;
+    height: 100%;/*new*/
+}
+
+* html .site {
+    height: 100%;/*new*/
+}
+
+.logo {
+    padding: 6px 1px;
+}
+
+.top-menu {
+    height: 40px;
+    width: 966px;
+    margin: 29px 0 20px 2px;
+    background: #535353;
+    font-size: 15px /*photoshop 14.67*/
+}
+
+.top-menu li {
+    display: inline-block;
+    padding: 12px 80px 0 24px;
+    margin: -3px -22px 0 -1px;
+}
+
+.top-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-menu a:hover {
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+    padding: 10px 22px;
+    margin: 0 -23px;
+    background: #343434;
+}
+
+table.table{
+    border: 1px #c8c8c8 solid;
+    width: 240px;
+    font-size: 13px
+}
+
+table.table td{
+    border: 1px #c8c8c8 solid;
+    height: 39px;
+    padding: 0 22px;
+    color:#656363;
+}
+
+table.table td:hover {
+    padding: 0 35px;
+    background: #f9f9f9;
+    margin: 0 3px;
+    color: black;
+}
+
+.left_menu {
+    float: left;
+    padding: 20px 2px;
+}
+
+.frame {
+    width: 677px;
+    height: 400px;
+    border: 1px solid #c8c8c8;
+    margin: 40px 290px;
+}
+
+.content .frame img {
+    margin: 46px 88px;
+  }
+
+.clear {
+    clear: left;
+}
+.text {
+    width: 650px;
+    margin: -8px 315px;
+    }
+
+.text p {
+    font-size: 13px;
+    line-height: 21px;
+    color: black;
+}
+
+.footer {
+    height: 40px;
+    width: 966px;
+    background: #e1e1e1;
+    font-size: 13px;
+    margin: 69px 46px 0 46px;
+}
+
+.footer li {
+    display: inline-block;
+    padding: 12px 0 0 24px;
+    margin: -3px -25px 0 1px;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+    padding-right: 90px;
+    }
+
+.footer a:hover {
+   text-decoration: underline;
+}
+
+.footer .year {
+    float:right;
+    padding: 12px 50px 10px 10px;
+}
+
+
