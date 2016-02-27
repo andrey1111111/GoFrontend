@@ -1,0 +1,29 @@
+.wrap-countries {
+    clear: both;
+    float: right;
+    margin-top: -62px;
+    margin-right: 8px;
+}
+
+.wrap-countries div {
+    display: inline-block;
+    text-align: center;
+    width: 55px;
+    font-size: 10px;
+
+}
+
+.wrap-countries div a {
+    color: #128aa7;
+}
+
+.wrap-countries img {
+    display: block;
+    margin: 0 auto;
+  }
+
+.wrap-countries {
+   display: inline-block;
+
+
+}

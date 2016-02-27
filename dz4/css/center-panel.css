@@ -1,0 +1,61 @@
+.center-panel {
+    position: absolute;
+    width: 1000px;
+    background: #535353;
+    font-size: 14px;
+    border-top: 1px solid #cacbcb;
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 1px 1px rgba(79, 79, 80, 1)
+
+}
+
+ul .dropdown-inside li{
+    position: relative;
+}
+
+.site-menu li.dropdown-top{
+    display: inline-block;
+    margin: 0 -2px 0 67px;
+    position: relative;
+    line-height: 28px;
+}
+
+.center-panel a {
+    color: white;
+    text-decoration: none;
+
+}
+ul .dropdown-inside {
+    width: 130px;
+    line-height: 24px;
+    position: absolute;
+    left: -6px;
+    display: none;
+    border-top: 1px solid black;
+    background: #303030;
+    box-shadow: 0 2px 2px 1px rgba(87, 87, 87, 1)
+}
+
+.site-menu li.dropdown-top.dropdown-top:hover .dropdown-inside {
+    display: block;
+}
+
+.site-menu .dropdown-inside a {
+    padding-left: 5px;
+}
+
+.site-menu .dropdown-inside a:hover {
+    text-decoration: underline;
+}
+
+.site-menu a.dropdown-top:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -7px;
+    top: 14px;
+    /*background-color: chartreuse;*/
+    background: url("../image/ert.png") no-repeat;
+    width: 5px;
+    height: 6px;
+}

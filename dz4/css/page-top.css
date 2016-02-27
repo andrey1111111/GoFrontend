@@ -1,0 +1,25 @@
+.logo img {
+    float: left;
+    padding: 12px 0 0 17px;
+}
+
+.under_logo {
+    position: absolute;
+    color:#128aa7;
+    top: 108px;
+    left: 273px;
+    font-size: 12px;
+}
+
+.contacts {
+    float: right;
+    width: 158px;
+    color:#128aa7;
+    margin-top: 10px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.contacts .contacts-title {
+    font-weight: bold;
+}

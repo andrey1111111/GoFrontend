@@ -1,0 +1,39 @@
+.fon {
+    /*width: 1000px;*/
+    overflow: hidden; /* чтобы лишее обрезалось */
+    margin-top: 32px;
+}
+ .fon div p{
+     text-align: center;
+     font-size: 14px;
+     line-height: 24px;
+     color: #424c43;
+
+     padding: 5px 20px 7px 12px;
+ }
+.fon div h1 {
+    color: #424c43;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.leftColumn {
+    width: 210px;
+    float: left;
+    border-right:1px solid #c7cacf;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    background-color: #edeef0;
+}
+
+
+.rightColumn {
+    width: 210px;
+    float: right;
+    border-left:1px solid #c7cacf;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    background-color: #edeef0;
+}

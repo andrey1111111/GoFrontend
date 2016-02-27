@@ -1,0 +1,13 @@
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.footer {
+    padding-top: 10px;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    color: #c7cacf;
+    font-size: 12px;
+}

@@ -1,0 +1,9 @@
+.photo img {
+    border-bottom: 1px solid #138aa7;
+    border-top: 1px solid #138aa7;
+    width: 1000px;
+
+}
+.photo {
+    height: 414px;
+}

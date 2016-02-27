@@ -1,0 +1,14 @@
+body {
+    background: url(../image/background.png) repeat-x;
+    font-family: Tahoma, Geneva, sans-serif;
+    /*margin-bottom: 30px;*/
+    /*margin-top: 38px;*/
+}
+
+.wrap {
+    width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 3px 1px 1px rgba(3, 29, 40, 1);
+}
