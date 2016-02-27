@@ -1,0 +1,13 @@
+body {
+    background: url(../image/background.png) no-repeat;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-size: cover;
+}
+
+.wrap {
+    position: relative;
+    /*background: url(../image/background.png) no-repeat;*/
+    margin: 0 auto;
+    width: 1215px;
+    height: 1028px;
+}

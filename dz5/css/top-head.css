@@ -1,0 +1,72 @@
+.top-head {
+    width: 100%;
+    height: 34px;
+    background: #074d8b;
+    /*margin: 0 auto;*/
+    /*font-size: 14px;*/
+    /*line-height: 14px;*/
+    /*position: relative;*/
+    }
+.container-header {
+    width: 1215px;
+    height: 34px;
+    background: #074d8b;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 14px;
+    position: relative;
+}
+.head {
+    float: right;
+}
+
+.head li{
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 21px;
+}
+li .top-name .top-menu  {
+    margin-right: 28px;
+}
+
+.top-name .top-menu  {
+    text-decoration: none;
+    color: #60b5ed;
+
+ }
+
+.top-name .top-menu:hover  {
+    background-color: #4eabda;
+    padding: 11px 14px;
+    color: #fefefe;
+    margin: 0 -14px;
+}
+
+.top-name .top-menu-flag {
+    color: #fefefe;
+    text-decoration: none;
+    margin-left: 22px;
+    margin-right: 15px;
+}
+.top-name .top-menu-flag:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    background: url("../image/flag.png") no-repeat;
+    width: 21px;
+    height: 23px;
+}
+
+.top-name .top-menu-right {
+    padding: 8px 14px;
+    margin-right: 20px;
+    color: #fefefe;
+    text-decoration: none;
+    border: solid 1px #4d9ed8;
+    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+    background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+    background-image: -ms-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+    background-image: linear-gradient(to top, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+}
